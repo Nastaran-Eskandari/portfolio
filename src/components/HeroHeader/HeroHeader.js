@@ -15,7 +15,7 @@ export class HeroHeader extends React.Component{
                         <h2>Hello!</h2>
                         <h3>I'm Nastaran Eskandari</h3>
                         <h4>Full-Stack Developer</h4>
-                        <button><a href="./Nastaran-Eskandari-Resume.pdf" download>Download my Resume</a></button>
+                        <button><a href="./files/Nastaran-Eskandari-Resume.pdf" download>Download my Resume</a></button>
                     </div>
                 </ScrollAnimation>
             <div>
