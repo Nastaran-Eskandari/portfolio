@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Mailto from 'react-protected-mailto'
 import './HeroHeader.css';
 import '../Main/animate.css';
 
@@ -15,6 +16,7 @@ export class HeroHeader extends React.Component{
                         <h2>Hello!</h2>
                         <h3>I'm Nastaran Eskandari</h3>
                         <h4>Front-End Developer</h4>
+                        <p> <Mailto email='nastaran.eskandari@gmail.com'/></p>
                         <button><a href="./files/Nastaran-Eskandari-Resume.pdf" download>Download my Resume</a></button>
                     </div>
                 </ScrollAnimation>

@@ -11,12 +11,13 @@ export class Footer extends React.Component{
                 <ScrollableAnchor id={'contact-section'} scrollDuration={2} keepLastAnchorHash={false}>
                     <div className="footer">
                         <nav className="footer_navbar">
-                            <div className="footer_navbar--info">
-                             <p>Email: <Mailto email='nastaran.eskandari@gmail.com'/></p>
-                            </div>
+                            <h3 className="footer_navbar--title">Contact Info</h3>
                             <div className="footer_navbar--social">
-                                <a href="https://www.linkedin.com/in/nastaran-eskandari/"  rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin fa-2x"></i></a>
                                 <a href="https://github.com/Nastaran-Eskandari"  rel="noopener noreferrer" target="_blank"><i className="fab fa-github fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/in/nastaran-eskandari/"  rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin fa-2x"></i></a> 
+                            </div>
+                            <div className="footer_navbar--info">
+                                <p>Email: <Mailto email='nastaran.eskandari@gmail.com'/></p>
                             </div>
                         </nav>
                     </div>

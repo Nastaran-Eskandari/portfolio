@@ -1,6 +1,12 @@
 //variables
 $welcome-bg-color:rgba(230, 244, 247,.5);
 $text-btn-color: #4EB8CA;
+$btn-hover-color:rgb(167, 214, 223);
+$rsp-btn-color:rgb(197, 236, 243);
+//
+a{
+  text-decoration: none;
+}
 .hero {
     height: 100vh;
     background: url("./p.jpg");
@@ -64,6 +70,19 @@ $text-btn-color: #4EB8CA;
           margin: 0.5rem;
           font-style: italic;
         }
+        p{
+          font-weight: 300;
+          font-size:18px;
+          line-height: 1.35;
+          padding: 0;
+          margin: 0.5rem;
+          text-decoration: none;
+          font-style: bold;
+          a{
+            color: black;
+          }
+        }
+        
         button{
           padding:1rem;
           background: transparent;
@@ -72,21 +91,17 @@ $text-btn-color: #4EB8CA;
           font-weight: bold;
           margin: 1rem ;
           cursor: pointer;
-          border-radius: 90px;
-
-         
+          border-radius: 5px;
 
           a{
-            text-decoration: none;
             color: $text-btn-color;
+            padding: 5px;;
           }
           
           
         }
         button:hover{
-          background: rgb(167, 214, 223);
-          transition: .5s;
-          color:#fff;
+          background: $btn-hover-color;
           transition: .5s;
         
         }
@@ -106,12 +121,16 @@ $text-btn-color: #4EB8CA;
   // @media query for screen and (max-width: 885px) ///
       
   @media screen and (max-width: 885px) {
-    .hero_welcome{
+    .hero_welcome-text{
       padding: 0;
+      align-items: center;
 
       h2{
         font-size: 34px;
       }
       h3{font-size: 30px;}
+    }
+    button{
+      background: $rsp-btn-color;
     }
   }

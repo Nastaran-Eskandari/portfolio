@@ -18,7 +18,7 @@ export class Main extends React.Component{
                 <div className="about">
                    <h2 className="title"><span className="first-letter">A</span>bout Me</h2> 
                    <div className="my-photo">
-                        <img src="./images/photo.jpg"></img>
+                        <img src="./images/photo.jpg" alt="nastan eskandari"></img>
                     </div>
                     
                     <h3>I am a graduate of the BrainStation Full Stack Web Development Boot Camp (Fall 2018). The program was a full time intensive 12 weeks with multiple assignments,

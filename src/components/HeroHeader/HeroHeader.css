@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .hero {
   height: 100vh;
   background: url("./p.jpg");
@@ -89,6 +93,20 @@
   font-style: italic;
 }
 
+.hero_welcome-text p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.35;
+  padding: 0;
+  margin: 0.5rem;
+  text-decoration: none;
+  font-style: bold;
+}
+
+.hero_welcome-text p a {
+  color: black;
+}
+
 .hero_welcome-text button {
   padding: 1rem;
   background: transparent;
@@ -97,19 +115,17 @@
   font-weight: bold;
   margin: 1rem;
   cursor: pointer;
-  border-radius: 90px;
+  border-radius: 5px;
 }
 
 .hero_welcome-text button a {
-  text-decoration: none;
   color: #4EB8CA;
+  padding: 5px;
 }
 
 .hero_welcome-text button:hover {
   background: #a7d6df;
   -webkit-transition: .5s;
-  transition: .5s;
-  color: #fff;
   transition: .5s;
 }
 
@@ -122,14 +138,20 @@
 }
 
 @media screen and (max-width: 885px) {
-  .hero_welcome {
+  .hero_welcome-text {
     padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .hero_welcome h2 {
+  .hero_welcome-text h2 {
     font-size: 34px;
   }
-  .hero_welcome h3 {
+  .hero_welcome-text h3 {
     font-size: 30px;
+  }
+  button {
+    background: #c5ecf3;
   }
 }
 /*# sourceMappingURL=HeroHeader.css.map */
