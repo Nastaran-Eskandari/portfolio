@@ -32,8 +32,8 @@ a {
           justify-content: space-between;
   background: rgba(230, 244, 247, 0.5);
   position: relative;
-  margin: auto;
-  padding: 2rem;
+  margin: 2rem auto;
+  padding: 2.2rem;
 }
 
 .hero_welcome-img {
