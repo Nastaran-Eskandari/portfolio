@@ -34,11 +34,18 @@ let projects = [{
 },
 {
     title:"Gelal Rah Jonoub",
-    text:" I made this website for a multi million construction company back in Iran as a freelancer in 2017. I used HTML, CSS, JavaScript, JQuery and Bootstrap.  ",
+    text:" I made this website for a multi million dollar construction company back in Iran as a freelancer in 2017. I used HTML, CSS, JavaScript, JQuery and Bootstrap.  ",
     imgSrc:'./images/gelal.png',
     href:'http://gelalrahjonoub.com/',
     btnText:'View Website'
 },
+                {
+    title:"Recipe Search",
+    text:"  This is a cool example of using rhe Food2Fork API's to get recipes. I used React, JS, Bootstrap and CSS to build this simple and fun website! ",
+    imgSrc:'./images/Recipe.png',
+    href:'https://github.com/Nastaran-Eskandari/Recipe-Search',
+    btnText:'View In GitHub '
+}
 
 ];
 export class Project extends React.Component{
