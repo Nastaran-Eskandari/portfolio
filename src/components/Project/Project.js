@@ -41,7 +41,7 @@ let projects = [{
 },
                 {
     title:"Recipe Search",
-    text:"  This is a cool example of using rhe Food2Fork API's to get recipes. I used React, JS, Bootstrap and CSS to build this simple and fun website! ",
+    text:"  This is a cool example of using the Food2Fork API's to get recipes. I used React, JS, Bootstrap and CSS to build this simple and fun website! ",
     imgSrc:'./images/recipe.png',
     href:'https://github.com/Nastaran-Eskandari/Recipe-Search',
     btnText:'View In GitHub '
