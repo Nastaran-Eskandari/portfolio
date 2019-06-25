@@ -17,7 +17,7 @@ export class HeroHeader extends React.Component{
                         <h3>I'm Nastaran Eskandari</h3>
                         <h4>Front-End Developer</h4>
                         <p> <Mailto email='nastaran.eskandari@gmail.com'/></p>
-                        <button><a href="./files/Nastaran-Eskandari-Resume.pdf" download>Download my Resume</a></button>
+                        <button><a href="./files/Nastaran-Resume.pdf" download>Download my Resume</a></button>
                     </div>
                 </ScrollAnimation>
             <div>
